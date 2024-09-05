@@ -1,2 +1,2 @@
-# Fortaleza da Pizz
- Pizzaria com tema de super heróis
+# Fortaleza da Pizza
+ Pizzaria com tema de super heróis em desenvolvimento.
