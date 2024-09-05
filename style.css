@@ -390,4 +390,24 @@ iframe{
 footer{
 padding: 50px;
 background-color: #26251c;
+display: flex;
+justify-content: center;
+}
+
+
+footer a{}
+
+
+footer i{
+    background-color: black;
+color: purple;
+font-size: 50px;
+border-radius: 30px;
+padding: 15px;
+}
+
+
+footer i:hover{
+    background-color: #fff;
+    transition: 1s;
 }
