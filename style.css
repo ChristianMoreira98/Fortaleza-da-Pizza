@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    padding: 50px;
+    background-color: #eb0a44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header img{
+width: 100px;
+}
+
+header ol{
+    display: flex;
+}
+
+header ol li{
+    margin-right: 12px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+header ol li:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+
+
+.section1{
+    background-color: #ee7f27;
+    /*hablitando uma cor no fundo */
+    padding: 250px;
+    /*Dando um tamnho para nossa sessão*/
+    display: flex;
+    /*tornando nossa sessão flex*/
+    justify-content: center;
+    /*justificativa do conteúdo, podendo alterar do nosso modo*/
+    align-items: center;
+    /*alinhando na vertical, deixando no centro */
+}
+
+
+
+.section1 div h1{
+font-size: 40px;
+color:  #26251c;
+text-align: center;
+margin-bottom: 15px;
+}
+
+.p{
+    font-weight: 80px;
+    font-size: 30px;
+    color: blanchedalmond;
+  
+}
+
+
+
+.section1 img{
+    width: 560px;
+    /*tamanho da imagem*/
+    height: auto;
+    /*Altura da imagem*/
+    border-radius: 10px;
+    /*Arredondamrnto da imagem*/
+    margin: 15px;
+    /*Colocando uma margem para todos os lados da imagem*/
+
+}
+
+.section1 img:hover{
+width: 565px;
+transition: 0.8s;
+cursor: pointer;
+}
+
+.section2{
+padding: 200px;
+background-color: #f2a73d;
+}
+
+.section2 h2{
+    color: #052542;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section2 .div-pai1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.section2 .div-pai1 div{
+    width: 200px;
+    height: 280px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+
+.section2 .div-filho1{
+    background-image: url(imagens/Homem\ de\ ferro.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.section2 .div-filho1 p{
+    text-align: center;
+    margin-top:285px;
+    align-items: center;
+ color: red;
+ font-weight: 600;
+}
+
+.section2 .div-filho1:hover{
+    transition: 0.8s;
+    cursor: pointer;
+    background-image: url(imagens/pizza\ de\ carne.jpg);
+}
+
+.section2 .div-filho2{
+    background-image: url(imagens/Hulk.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 2px black
+}
+
+.section2 .div-filho2:hover{
+    transition: 0.8s;
+    cursor: pointer;
+    background-image: url(imagens/pizza\ de\ vegetal.jpg);
+}
+
+.section2 .div-filho2 p{
+    text-align: center;
+    margin-top:285px;
+    align-items: center;
+ color: green;
+ font-weight: 600
+}
+
+.section2 .div-filho3{
+    background-image: url(imagens/Pepperoni\ Panther.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.section2 .div-filho3:hover{
+    cursor: pointer;
+    background-image: url(imagens/Pizza\ de\ pepperoni.jpg);
+    transition: 0.8s;
+
+}
+
+
+.section2 .div-filho3 p{
+    text-align: center;
+    margin-top:285px;
+    align-items: center;
+ color: black;
+ font-weight: 600
+}
+
+
+.section2 .div-pai2{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.section2 .div-pai2 div{
+    width: 200px;
+    height: 280px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+
+
+
+
+
+.section2 .div-filho4{
+    background-image: url(imagens/Superman’s\ Super\ Cheese.png);
+    background-position: center;
+    background-size: cover;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.section2 .div-filho4:hover{
+    cursor: pointer;
+    background-image: url(imagens/bacon\ pizza.jpg);
+    transition: 0.8s;
+}
+
+.section2 .div-filho4 p{
+    text-align: center;
+    margin-top:285px;
+    align-items: center;
+ color: blue;
+ font-weight: 600
+}
+
+
+.section2 .div-filho5{
+    background-image: url(imagens/Flash.png);
+    background-position: left;
+    background-size: cover;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.section2 .div-filho5:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background-image: url(imagens/Pizza\ de\ Frango.jpeg);
+}
+
+.section2 .div-filho5 p{
+    text-align: center;
+    margin-top:285px;
+    align-items: center;
+ color: orangered;
+ font-weight: 600;
+}
+
+.section2 .div-filho6{
+    background-image: url(imagens/Wonder\ Woman’s\ Wonder\ Pie.png);
+    background-position: center;
+    background-size: cover;
+    border: solid 2px black;
+border-radius: 10px;}
+
+.section2 .div-filho6:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    background-image: url(imagens/pizza\ mussarela.jpg);
+}
+
+.section2 .div-filho6 p{
+    text-align: center;
+    margin-top:285px;
+    align-items: center;
+ color: gold;
+ font-weight: 600;
+}
+
+.section3{
+    padding: 100px;
+    background-color: #f2a73d;
+    }
+
+
+.section3{
+    font-size: 30px;
+    color: #052542 ;
+}
+
+
+.section3 h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section3 .div-pai3{
+    display: flex;
+    justify-content: center;
+}
+
+.section3 .div-pai3 div{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 280px;
+}
+
+.section3 .div-filho7{
+    background-image: url(imagens/wolverine_PNG76.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.section3 .div-filho7:hover{
+    background-image: url(imagens/Pizza\ Italiana.webp);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.section3 .div-filho7 p{
+ color: navy;
+ margin-top: 300px;
+ margin-left: 27px;
+}
+
+.section3 .div-filho8{
+    background-image: url(imagens/Deadpool\ Icon.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border:solid 2px black;
+}
+
+
+.section3 .div-filho8:hover{
+    background-image: url(imagens/deadpizza\ definitiva.webp);
+background-position: left;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.section3 .div-filho8 p{
+    color: red;
+    margin-top: 300px;
+    margin-left: 27px;
+}
+
+
+.section4{
+padding: 200px;
+ background-image: url(imagens/sessao4\ pizzaria.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+
+
+.section4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+iframe{
+    border-radius: 10px;
+    margin: 30px;
+   
+
+}
+
+
+.section4 .localização{
+    
+}
+
+.section4 p{
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800px;
+
+}
+
+footer{
+padding: 50px;
+background-color: #26251c;
+}
